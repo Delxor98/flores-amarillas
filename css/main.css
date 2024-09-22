@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #000;
+}
+
+body{
+display: flex;
+justify-items: flex-end;
+justify-content: center;
+min-height: 100vh;
+background-color: var(--dark-color);
+overflow: hidden;
+perspective: 100px;
+}
+
+#lyrics{
+    font-size: 28px;
+    font-family: "Fanklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+    color: white;
+    position: absolute;
+    margin-bottom: 20%;
+    
+}
